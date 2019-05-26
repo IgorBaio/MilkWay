@@ -1,0 +1,32 @@
+body{
+	
+	background-image: url("img/ViaLactea1.jpg");
+	background-size: 100%;
+    	background-repeat: repeat-y;
+   	 background-attachment: fixed;
+    	height: 100%;
+	width: 100%;
+
+	color: white;
+}
+
+.titulo{
+	margin-left: 40%;
+	font-size:70px;
+}
+
+.slogan{
+	margin-left: 25%;
+	font-style:italic;
+	font-size: 40px;
+	
+	
+}
+#home{
+	font-size:22px;
+	color: lightred;
+}
+
+.linkBotao{
+	margin-left: 40%;
+}
