@@ -1,0 +1,17 @@
+
+         h1{
+             background-color:  lightgoldenrodyellow;
+             color: darkred;
+             
+         }
+         section {
+             background-color: lightyellow;
+             color: black;
+         }
+
+.text{
+    font-weight: bolder;
+    color: black;
+    background-color: burlywood;
+    opacity: 1;
+}
