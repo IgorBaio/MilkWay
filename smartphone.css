@@ -1,0 +1,64 @@
+@media only screen and (max-width: 980px) {
+  body {
+    background-image: url(img/Q2.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+
+    color: white;
+
+    margin: 0;
+    padding: 0;
+  
+    }
+ 
+.aa1 {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    font-size: 16pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#apresent{
+    background-color: #404040;
+    color: navajowhite;
+}
+ 
+.section {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 3;
+}
+    
+ 
+
+         h1{
+             background-color:  lightgoldenrodyellow;
+             color: darkred;
+             
+         }
+         section {
+             background-color: lightyellow;
+             color: black;
+         }
+
+.text{
+    font-weight: bolder;
+    color: black;
+    background-color: burlywood;
+    opacity: 1;
+    
+}
+}
