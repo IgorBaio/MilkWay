@@ -22,6 +22,7 @@
      
 
     <style>
+        @media only screen and (max-width: 980px){ 
         #initial {
             background-image: url("img/Leite1.png");
             background-size: cover;
@@ -34,24 +35,70 @@
             background-position: center bottom;
         }
 
-        #mud {
+        #composicao{
             background-image: url("img/Leite3.jpg");
             background-size: cover;
             background-position: center bottom;
             
         }
-        #mud2{
+        #classificacao{
             background-image: url("img/Leite4.jpg");
             background-size: cover;
             background-position: center bottom;
             
         }
-        #mud3{
+        #referencias, #pasteurizacao {
             background-image: url("img/Leite5.jpg");
             background-size: cover;
             background-position: center bottom;
             
         }
+        #referencia{
+            background-color: #404040;
+            opacity: 0.8;
+            color: navajowhite;
+        }
+        .classificLeite{
+            margin-left: 0%;
+        }
+
+
+    }
+    
+        .classificLeite{
+            margin-left: 3%;
+        }
+
+        #caracteristicas {
+            background-image: url("img/Leite2.jpg");
+            background-size: cover;
+            background-position: center bottom;
+        }
+
+       #apresentacao, #composicao{
+            background-image: url("img/Leite3.jpg");
+            background-size: cover;
+            background-position: center bottom;
+            
+        }
+        #classificacao{
+            background-image: url("img/Leite4.jpg");
+            background-size: cover;
+            background-position: center bottom;
+            
+        }
+        #referencias, #pasteurizacao {
+            background-image: url("img/Leite5.jpg");
+            background-size: cover;
+            background-position: center bottom;
+            
+        }
+        #referencia{
+            background-color: #404040;
+            opacity: 0.8;
+            color: navajowhite;
+        }
+
         
     </style>
 
@@ -115,7 +162,7 @@
 
     <h1 class="slogan aa1" id="titulo"> MILK WAY </h1>
 
-    <div id="initial" class="section">
+    <div id="apresentacao" class="section">
 
 
 
@@ -123,22 +170,28 @@
 
 
         <p id="home" class="slogan text">&nbsp;&nbsp;&nbsp; O leite é um alimento completo e por isso faz parte da alimentação humana desde o nascimento. O leite de origem bovina é o mais consumido devido aos avanços tecnológicos na obtenção, produção e distribuição do mesmo. A qualidade do leite está relacionada às etapas da sua produção podendo ocorrer alterações bioquímicas, sensoriais, microbiológicas entre outras (1). </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
+    </div>
+    
 
     </div>
+
+    <div class="section" id="composicao">
+        <h2 class="slogan" id="apresent">Composição:</h2>
+        <p id="home" class="text ">A composição do leite de vaca se baseia em teores aproximados médios e é constituído principalmente de água (87,3%); lipídeos (3,9%); lactose (4,6%); proteínas (3,25%); sais minerais (0,65%); ácidos orgânicos (0,18%) e outros (0,14%) (1).</p>
+    </div>
+
     <div class="section" id="caracteristicas">
         <h2 class="slogan" id="apresent">Características:</h2>
-        <p class="text">A composição do leite de vaca se baseia em teores aproximados médios e é constituído principalmente de água (87,3%); lipídeos (3,9%); lactose (4,6%); proteínas (3,25%); sais minerais (0,65%); ácidos orgânicos (0,18%) e outros (0,14%) (1). </p>
 
-        <p class="text">Quanto as suas propriedades físico-químicas, o leite fresco exibe um sabor característico apresentando-se como doce e salgado devido principalmente a relação entre cloretos e lactose. A cor branco-amarelada se da pelas partículas coloidais da caseína e do fosfato de cálcio e pigmentos de caroteno. O leite contém uma acidez natural (pH médio de 6,7 a 20º C) vinda da presença de dióxido de carbono, citratos, caseína, albumina e fosfatos e após ordenha, com a ação de bactérias, sofre fermentação com produção do ácido lático. Sua densidade varia entre 1,023 g/mL e 1,040 g/mL a 15º C, tendo como valor médio 1,032 g/mL (1).</p>
+        <p id="home"  class="text">Quanto as suas propriedades físico-químicas, o leite fresco exibe um sabor característico apresentando-se como doce e salgado devido principalmente a relação entre cloretos e lactose. A cor branco-amarelada se da pelas partículas coloidais da caseína e do fosfato de cálcio e pigmentos de caroteno. O leite contém uma acidez natural (pH médio de 6,7 a 20º C) vinda da presença de dióxido de carbono, citratos, caseína, albumina e fosfatos e após ordenha, com a ação de bactérias, sofre fermentação com produção do ácido lático. Sua densidade varia entre 1,023 g/mL e 1,040 g/mL a 15º C, tendo como valor médio 1,032 g/mL (1).</p>
 
-        <p class="text">No Brasil, o leite é classificado quanto ao seu modo de produção, características físico-químicas e microbiológicas recebendo as denominações A, B ou C e essa classificação está bem demonstrada na tabela abaixo:</p>
+    </div>
 
-        <table>
+    <div class="section" id="classificacao">
+        <h2 class="slogan" id="apresent">Classificação:</h2>
+        <p id="home"  class="text">No Brasil, o leite é classificado quanto ao seu modo de produção, características físico-químicas e microbiológicas recebendo as denominações A, B ou C e essa classificação está bem demonstrada na tabela abaixo:</p>
+
+        <table class="classificLeite">
              <tr class="TipoLeite" >
                     <td class="TipoLeite">
                         Tipo
@@ -224,64 +277,48 @@
         <!--<p class="text">
             <img src="img/Classificacao%20do%20leite.png" alt="tabela de classificação do leite">Fonte:  Venturini et al, 2007
         </p>-->
-
     </div>
-
-    <div class="section" id="mud">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-    </div>
-
-    <div class="section" id="mud2">
-        <h2 class="slogan" id="apresent">Características:</h2>
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="img/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="img/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="img/load.gif" alt="Imagem de loading">
-    </div>
-   
-    <div class="section" id="mud3">
-        <p id="home" class="slogan"> Em construcao </p>
-    <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-    <p id="home" class="slogan"> Em construcao </p>
-    <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-    <p id="home" class="slogan"> Em construcao </p>
-    <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-    </div>
+    
 
     
-    <div class="section" id="mud">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
-        <p id="home" class="slogan"> Em construcao </p>
-        <img class="slogan" src="gif/load.gif" alt="Imagem de loading">
+
+    <div class="section" id="pasteurizacao">
+            <h2 class="slogan" id="apresent">Pasteurização:</h2>
+
+        <p id="home" class="text"> A pasteurização garante ao consumidor um leite de melhor qualidade isento de micro-organismos patogênicos. A pasteurização pode ser lenta (63ºC durante 30 minutos e passa por resfriamento natural) ou rápida (72 e 75º C por um tempo que pode variar de 15 a 20 segundos).  Em seguida o leite é resfriado à 5º C e é embalado e estocado em câmaras refrigeradas. </p>
+        
     </div>
 
+    <div class="section" id="referencias">
+        <h2 class="slogan" id="referencia">Referências:</h2>
+        <ol class="text"> 
+            <li>
+                    Química do leite. Apostila de Aula Prática de Farmacognosia UFBA. Disponível em: <a href="http://www.sbfgnosia.org.br/Ensino/quimica_do_leite.html"> http://www.sbfgnosia.org.br/Ensino/quimica_do_leite.html</a>. Acesso em 28 de maio de 2019.
+            </li>
+            <li>
+                     Venturini K. S.; Sarcinelli M. F.; da Silva L. C.. Características do Leite. Boletim Técnico - PIE-UFES: 01007.2007
+            </li>
+        </ol>
+        <ul class="text" >
+            <li>
+                <a href="https://www.youtube.com/watch?v=Jv5p7o-7Pms">https://www.youtube.com/watch?v=Jv5p7o-7Pms</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=6IJLVjpLPb8">https://www.youtube.com/watch?v=6IJLVjpLPb8</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=iGAwTwdB5NA">https://www.youtube.com/watch?v=iGAwTwdB5NA</a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=Jpx_GstLHHM">https://www.youtube.com/watch?v=Jpx_GstLHHM</a>
+            </li>
 
-    <div class="section" id="caracteristicas">
-        <p> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa
-            aaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-
+        </ul>
+                
+        
     </div>
+   
+    
 
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
